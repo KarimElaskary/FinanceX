@@ -3,7 +3,7 @@ import rightWhite from '../assets/rightWhite.png'
 
 const Card2 = ({ img, title }) => {
   return (
-    <div className='container w-[30%] border-[1px] border-[#2E2E2E] p-[50px] md:w-[20%] flex flex-col justify-between'>
+    <div className='container w-[45%] border-[1px] border-[#2E2E2E] p-[50px] md:w-[20%] flex flex-col justify-between'>
       <li>
         <div className='bg-white p-[10px] w-fit mb-[30px]'>
           <img src={img} alt='smallIcon' />
