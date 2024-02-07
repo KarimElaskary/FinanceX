@@ -3,7 +3,7 @@ import hero from '../assets/Hero.png'
 
 const Hero = () => {
   return (
-    <div className='hero container items-center mx-auto flex flex-col md:flex-row '>
+    <div className='hero container items-center mx-auto flex flex-col md:flex-row w-[70%] md:w-full'>
       <div className='flex-1'>
         <h1 className='text-[20px] font-Rubik text-[#CBFC01] text-center md:text-start font-semibold'>
           Welcome! Future Platform
@@ -21,7 +21,7 @@ const Hero = () => {
         <Button>Get Started</Button>
         </div>
       </div>
-      <div className='w-[500px] text-center mt-[70px] md-[0px] md:w-[720px]'>
+      <div className='w-[300px] text-center mt-[70px] md-[0px] md:w-[720px]'>
         <img src={hero} alt='hero' />
       </div>
     </div>
