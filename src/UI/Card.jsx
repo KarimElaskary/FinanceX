@@ -18,7 +18,7 @@ const Card = ({ description }) => {
         <div className='flex flex-col items-end'>
           <a
             href=''
-            className='bg-[#CBFC01] text-black px-[10px] py-[10px] flex w-fit gap-2 items-center'
+            className='bg-[#CBFC01] text-black mb-[20px] mt-[50px] px-[10px] py-[10px] flex w-fit gap-2 items-center'
           >
             <div>
               <img src={vector2} alt='vector2' />
