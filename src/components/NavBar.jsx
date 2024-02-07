@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className='navbar container flex items-center justify-between mx-auto'>
       <h1 className='font-Satoshi font-bold text-[24px]'>FinanceX</h1>
-      <div className='flex gap-[55px] font-Rubik font-normal text-[16px]'>
+      <div className='hidden md:flex gap-[55px] font-Rubik font-normal text-[16px]'>
         <a href=''>Why FinanceX</a>
         <a href=''>Features</a>
         <a href=''>Update</a>

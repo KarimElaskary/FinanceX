@@ -5,21 +5,23 @@ const Hero = () => {
   return (
     <div className='hero container items-center mx-auto flex flex-col md:flex-row '>
       <div className='flex-1'>
-        <h1 className='text-[20px] font-Rubik text-[#CBFC01] font-semibold'>
+        <h1 className='text-[20px] font-Rubik text-[#CBFC01] text-center md:text-start font-semibold'>
           Welcome! Future Platform
         </h1>
-        <h1 className='mt-[15px] mb-[35px] text-[72px] font-Satoshi font-bold'>
+        <h1 className='mt-[15px] mb-[35px] text-center md:text-start text-[72px] font-Satoshi font-bold'>
           The World's Most Modern Card{' '}
           <span className='text-[#CBFC01]'>Platform</span>
         </h1>
-        <p className='mb-[50px] font-Rubik font-normal text-[18px] mr-[140px]'>
+        <p className='mb-[50px] font-Rubik font-normal text-[18px] text-center md:text-start md:mr-[140px]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit amet luctus venenatis, lectus magna fringilla urna,
           porttitor
         </p>
+        <div className='flex justify-center md:justify-start'>
         <Button>Get Started</Button>
+        </div>
       </div>
-      <div className='w-[720px]'>
+      <div className='w-[500px] text-center mt-[70px] md-[0px] md:w-[720px]'>
         <img src={hero} alt='hero' />
       </div>
     </div>
