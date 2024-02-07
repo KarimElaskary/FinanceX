@@ -41,12 +41,12 @@ const OurServices = () => {
       <h1 className='text-[20px] text-[#CBFC01] font-Rubik font-semibold mb-[20px]'>
         Our Services
       </h1>
-      <h1 className='text-[48px] font-Satoshi font-bold mb-[50px]'>
+      <h1 className='text-[48px] text-center font-Satoshi font-bold mb-[50px]'>
         Browse our services & <span className='text-[#CBFC01]'>offerings</span>
       </h1>
       <Button>Get Started</Button>
       <div className='mt-[100px]'>
-        <ul className='flex mb-[150px]'>
+        <ul className='flex flex-wrap justify-center mb-[150px]'>
           {data.map((card, i) => (
             <Card key={i} description={card.description} />
           ))}

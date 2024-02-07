@@ -21,7 +21,7 @@ const Hero = () => {
         <Button>Get Started</Button>
         </div>
       </div>
-      <div className='w-[300px] text-center mt-[70px] md-[0px] md:w-[720px]'>
+      <div className='w-[450px] text-center mt-[70px] md-[0px] md:w-[720px]'>
         <img src={hero} alt='hero' />
       </div>
     </div>
