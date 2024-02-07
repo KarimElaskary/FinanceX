@@ -3,11 +3,10 @@ import messenger from '../assets/messenger.png'
 import twitter from '../assets/twitter.png'
 import twoo from '../assets/twoo.png'
 import linkedin from '../assets/linkedin.png'
-import Button from '../UI/Button'
 
 const Footer = () => {
   return (
-    <div className='container mx-auto mt-[150px] mb-[100px] flex gap-[80px]'>
+    <div className='hidden md:flex container mx-auto mt-[150px] mb-[100px] gap-[80px]'>
       <div className='flex flex-col'>
         <h1 className='font-Satoshi font-bold text-[24px] mb-[20px]'>
           FinanceX
