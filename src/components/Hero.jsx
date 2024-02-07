@@ -10,7 +10,7 @@ const Hero = () => {
           The World's Most Modern Card{' '}
           <span className='text-[#CBFC01]'>Platform</span>
         </h1>
-        <p className='mb-[50px] font-Rubik font-normal text-[18px]'>
+        <p className='mb-[50px] font-Rubik font-normal text-[18px] mr-[140px]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit amet luctus venenatis, lectus magna fringilla urna,
           porttitor
