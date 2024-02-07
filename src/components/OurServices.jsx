@@ -53,7 +53,7 @@ const OurServices = () => {
         </ul>
       </div>
       <div>
-        <ul className='flex flex-col md:flex-wrap justify-center'>
+        <ul className='flex flex-col md:flex-wrap items-center justify-center'>
           {data2.map((card, i) => (
             <Card2 key={i} img={card.img} title={card.title} />
           ))}
