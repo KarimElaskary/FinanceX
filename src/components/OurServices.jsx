@@ -52,13 +52,13 @@ const OurServices = () => {
           ))}
         </ul>
       </div>
-        <div>
-          <ul className='flex justify-center'>
-            {data2.map((card, i) => (
-              <Card2 key={i} img={card.img} title={card.title} />
-            ))}
-          </ul>
-        </div>
+      <div>
+        <ul className='flex flex-wrap justify-center'>
+          {data2.map((card, i) => (
+            <Card2 key={i} img={card.img} title={card.title} />
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }

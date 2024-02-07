@@ -4,7 +4,7 @@ import vector2 from '../assets/Vector2.png'
 
 const Card = ({ description }) => {
   return (
-    <div className='container w-[30%] border-[#2E2E2E] border-[1px] p-[40px]'>
+    <div className='container w-[40%] md:w-[30%] border-[#2E2E2E] border-[1px] p-[40px]'>
       <li>
         <div className='flex flex-col items-start'>
           <div className='mb-[35px]'>
