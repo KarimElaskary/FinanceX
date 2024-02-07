@@ -5,7 +5,9 @@ const Hero = () => {
   return (
     <div className='hero container items-center mx-auto flex flex-col md:flex-row '>
       <div className='flex-1'>
-        <h1 className='text-[20px] font-Rubik text-[#CBFC01] font-semibold'>Welcome! Future Platform</h1>
+        <h1 className='text-[20px] font-Rubik text-[#CBFC01] font-semibold'>
+          Welcome! Future Platform
+        </h1>
         <h1 className='mt-[15px] mb-[35px] text-[72px] font-Satoshi font-bold'>
           The World's Most Modern Card{' '}
           <span className='text-[#CBFC01]'>Platform</span>
@@ -15,11 +17,9 @@ const Hero = () => {
           purus sit amet luctus venenatis, lectus magna fringilla urna,
           porttitor
         </p>
-        <Button>
-          Get Started
-        </Button>
+        <Button>Get Started</Button>
       </div>
-      <div className='mr-[-183px]'>
+      <div>
         <img src={hero} alt='hero' />
       </div>
     </div>
