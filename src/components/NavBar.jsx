@@ -3,7 +3,7 @@ import rightwhite from '../assets/rightWhite.png'
 const NavBar = () => {
   return (
     <div className='navbar container flex items-center justify-between mx-auto'>
-      <h1>FinanceX</h1>
+      <h1 className='font-Satoshi font-bold text-[24px]'>FinanceX</h1>
       <div className='flex gap-[55px]'>
         <a href=''>Why FinanceX</a>
         <a href=''>Features</a>

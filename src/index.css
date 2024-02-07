@@ -21,9 +21,3 @@ a {
 .hero {
   margin-bottom: 160px;
 }
-
-@media (max-width:480px){
-  .container{
-    max-width: 90% !important;
-  }
-}
