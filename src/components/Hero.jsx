@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
         <Button>Get Started</Button>
       </div>
-      <div>
+      <div className='w-[720px]'>
         <img src={hero} alt='hero' />
       </div>
     </div>
